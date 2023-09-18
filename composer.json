@@ -1,0 +1,13 @@
+{
+    "name": "jadu/pulsar-array-extension",
+    "description": "Provides Twig extensions to retrive or exclude specific keys/value pairs from an array",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "Jadu\\Pulsar": "src"
+        }
+    },
+    "require": {
+        "twig/twig": "^2.0"
+    }
+}
