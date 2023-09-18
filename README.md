@@ -10,7 +10,7 @@ Returns a filtered array with the specified keys removed.
 
 Multiple items can be provided, space separated.
 
-```
+```twig
 arrayToModify|exclude('itemToExclude')
 ```
 
@@ -20,6 +20,6 @@ Returns only the items present in the filter list based on a case insensitive se
 
 Multiple items can be provided, space separated.
 
-```
+```twig
 arrayToModify|only('itemToInclude')
 ```
